@@ -62,12 +62,6 @@ function singleThread() {
 
         })
 
-
-
-        // Confusao [1][n] = Setosa
-        // Confusao [2][n] = Versicolor
-        // Confusao [3][n] = Virginica
-
         var tempConfusao = [0, 0, 0, 0];
         var tempConfusao2 = [0, 0, 0, 0];
         var tempConfusao3 = [0, 0, 0, 0];
@@ -108,22 +102,8 @@ function singleThread() {
                         arrayD2 = linha_interna;
                     }
 
-                    //console.log("\n ArrayD Atual: " + arrayD[4]);
-                    //console.log(" ArrayD2 Atual: " +  arrayD2[4]);
-
-
-
                 }
             });
-
-            //console.log("\n")
-            //console.log(posicao)
-            //console.log(minDist)
-
-            //console.log("\n ArrayD Atual: " + arrayD)
-            //console.log(" ArrayD2 Atual: " + arrayD2)
-
-            // Porque Sempre da iris-virginica?
 
 
             if (arrayD[4] == "Iris-setosa") {
